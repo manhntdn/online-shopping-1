@@ -67,4 +67,18 @@ public class CategoryDAOImpl implements CategoryDAO {
 		return null;
 	}
 
+
+	@Override
+	public boolean add(Category category) {
+
+		try{
+			
+		}catch(Exception ex) {
+			ex.printStackTrace();
+			return false;
+		}
+		
+		return false;
+	}
+
 }
